@@ -1,16 +1,1 @@
-$(document).ready(function(){
-var students =[
-    "Tom",
-    "Erica",
-    "Alyxe",
-    "Michael",
-    "Courtney",
-    "Joliz",
-    ];
-    
-var random = Math.floor(Math.random()* students.length);
-
-$("button").click(function(){
-    $("div").append( students[random] + ", please answer the question");
-    });
-  });
+var _0x2eaa=["\x54\x6F\x6D","\x45\x72\x69\x63\x61","\x41\x6C\x79\x78\x65","\x4D\x69\x63\x68\x61\x65\x6C","\x43\x6F\x75\x72\x74\x6E\x65\x79","\x4A\x6F\x6C\x69\x7A","\x72\x61\x6E\x64\x6F\x6D","\x6C\x65\x6E\x67\x74\x68","\x66\x6C\x6F\x6F\x72","\x2C\x20\x70\x6C\x65\x61\x73\x65\x20\x61\x6E\x73\x77\x65\x72\x20\x74\x68\x65\x20\x71\x75\x65\x73\x74\x69\x6F\x6E","\x61\x70\x70\x65\x6E\x64","\x64\x69\x76","\x63\x6C\x69\x63\x6B","\x62\x75\x74\x74\x6F\x6E","\x72\x65\x61\x64\x79"];$(document)[_0x2eaa[14]](function(){var _0xf17bx1=[_0x2eaa[0],_0x2eaa[1],_0x2eaa[2],_0x2eaa[3],_0x2eaa[4],_0x2eaa[5]];var _0xf17bx2=Math[_0x2eaa[8]](Math[_0x2eaa[6]]()* _0xf17bx1[_0x2eaa[7]]);$(_0x2eaa[13])[_0x2eaa[12]](function(){$(_0x2eaa[11])[_0x2eaa[10]](_0xf17bx1[_0xf17bx2]+ _0x2eaa[9])})})
